@@ -1,7 +1,7 @@
 .CardEndereco{
-    width: 45%;
+    width: 70%;
     margin: auto;
-    background-color: rgb(201, 201, 201);
+    background-color: rgba(240, 239, 239, 0.89);
     border-radius: 20px;
     margin-top: 20px;
     text-align: left;
