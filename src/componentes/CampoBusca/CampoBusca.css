@@ -12,6 +12,11 @@
     width: 80%;
     margin: auto;
 }
+.MagnifyingGlass-wrapper{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
 
 .CampoBusca input{
     width: 40%;
@@ -27,8 +32,6 @@
 }
 
 
-
-/* CSS */
 .CampoBusca button{
   appearance: button;
   backface-visibility: hidden;
