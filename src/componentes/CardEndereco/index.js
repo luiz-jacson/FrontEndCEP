@@ -3,7 +3,7 @@ import './CardEndereco.css'
 
 const CardEndereco = (endereco) => {
     console.log(endereco.endereco)
-    if (endereco.endereco === 'erro' || endereco.endereco.length === 0) return null
+    if (endereco.endereco.status === 404 || endereco.endereco.length === 0 || endereco.endereco.status == 500) return null
     return (
         <section className='CardEndereco'>
             <h3>CEP: {endereco.endereco.cep}</h3>
